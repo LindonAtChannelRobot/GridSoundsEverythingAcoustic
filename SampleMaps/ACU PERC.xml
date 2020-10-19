@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="ACU PERC" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="69" LoKey="69" HiKey="115" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S1_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="47217" Pitch="58"
+          Pan="0" Volume="0" MonolithOffset="0" MonolithLength="49152"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="115" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S1_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="74530" Pitch="40"
+          Pan="0" Volume="0" MonolithOffset="49152" MonolithLength="77824"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="115" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S1_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="44513" Pitch="17"
+          Pan="0" Volume="0" MonolithOffset="126976" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="68" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S2_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="40162" Pitch="100"
+          Pan="0" Volume="0" MonolithOffset="172032" MonolithLength="40960"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="68" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S2_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="43096" Pitch="88"
+          Pan="0" Volume="0" MonolithOffset="212992" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="68" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S2_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="43280" Pitch="17"
+          Pan="0" Volume="0" MonolithOffset="258048" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="63" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="39687" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="303104" MonolithLength="40960"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="63" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="43783" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="344064" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="63" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="44274" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="389120" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="59" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="41220" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="434176" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="59" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="44694" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="479232" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="59" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="42605" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="524288" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="45" HiKey="51" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="36883" Pitch="-100"
+          Pan="0" Volume="0" MonolithOffset="569344" MonolithLength="40960"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="45" HiKey="51" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="44462" Pitch="-100"
+          Pan="0" Volume="0" MonolithOffset="610304" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="45" HiKey="51" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="44576" Pitch="-111"
+          Pan="0" Volume="0" MonolithOffset="655360" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="44" LoKey="0" HiKey="44" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="42152" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="700416" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="44" LoKey="0" HiKey="44" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="52324" Pitch="100"
+          Pan="0" Volume="0" MonolithOffset="745472" MonolithLength="53248"
+          SampleRate="44100"/>
+  <sample Root="44" LoKey="0" HiKey="44" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticPerc_S6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="39046" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="798720" MonolithLength="40960"
+          SampleRate="44100"/>
+</samplemap>

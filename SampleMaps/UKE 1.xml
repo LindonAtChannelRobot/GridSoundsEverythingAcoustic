@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="UKE 1" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="58" LoKey="58" HiKey="59" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_A#3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="172032" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="0" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="58" LoKey="58" HiKey="59" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_A#3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="241280" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="172032" MonolithLength="241664"
+          SampleRate="44100"/>
+  <sample Root="58" LoKey="58" HiKey="59" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_A#3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="256864" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="413696" MonolithLength="258048"
+          SampleRate="44100"/>
+  <sample Root="58" LoKey="58" HiKey="59" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_A#3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="224320" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="671744" MonolithLength="225280"
+          SampleRate="44100"/>
+  <sample Root="57" LoKey="57" HiKey="58" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_A3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="184896" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="897024" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="57" LoKey="57" HiKey="58" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_A3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="227136" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1085440" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="57" LoKey="57" HiKey="58" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_A3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="196608" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1314816" MonolithLength="196608"
+          SampleRate="44100"/>
+  <sample Root="57" LoKey="57" HiKey="58" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_A3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="219816" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1511424" MonolithLength="221184"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="59" HiKey="60" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_B3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="128272" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1732608" MonolithLength="131072"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="59" HiKey="60" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_B3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="253568" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1863680" MonolithLength="253952"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="59" HiKey="60" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_B3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="230528" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2117632" MonolithLength="233472"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="59" HiKey="60" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_B3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="198208" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2351104" MonolithLength="200704"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="49" HiKey="50" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_C#3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="277440" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2551808" MonolithLength="278528"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="49" HiKey="50" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_C#3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="300384" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2830336" MonolithLength="303104"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="49" HiKey="50" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_C#3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="266240" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="3133440" MonolithLength="266240"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="49" HiKey="50" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_C#3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="328768" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="3399680" MonolithLength="331776"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="0" HiKey="48" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_C3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="298676" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="3731456" MonolithLength="299008"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="0" HiKey="48" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_C3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="340008" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="4030464" MonolithLength="344064"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="0" HiKey="48" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_C3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="424656" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="4374528" MonolithLength="425984"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="0" HiKey="48" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_C3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="392320" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="4800512" MonolithLength="393216"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="51" HiKey="52" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_D#3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="142976" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="5193728" MonolithLength="143360"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="51" HiKey="52" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_D#3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="226208" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="5337088" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="51" HiKey="52" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_D#3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="240768" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="5566464" MonolithLength="241664"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="51" HiKey="52" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_D#3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="262816" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="5808128" MonolithLength="266240"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="50" HiKey="51" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_D3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="243848" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="6074368" MonolithLength="245760"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="50" HiKey="51" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_D3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="351040" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="6320128" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="50" HiKey="51" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_D3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="270592" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="6672384" MonolithLength="274432"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="50" HiKey="51" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_D3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="296832" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="6946816" MonolithLength="299008"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="53" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_E3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="134832" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="7245824" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="53" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_E3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="178688" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="7380992" MonolithLength="180224"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="53" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_E3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="161472" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="7561216" MonolithLength="163840"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="53" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_E3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="233568" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="7725056" MonolithLength="237568"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_F#3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="157376" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="7962624" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_F#3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="158528" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="8122368" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_F#3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="226272" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="8282112" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_F#3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="252224" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="8511488" MonolithLength="253952"
+          SampleRate="44100"/>
+  <sample Root="53" LoKey="53" HiKey="54" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_F3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="132432" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="8765440" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="53" LoKey="53" HiKey="54" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_F3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="168448" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="8900608" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="53" LoKey="53" HiKey="54" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_F3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="184576" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="9072640" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="53" LoKey="53" HiKey="54" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_F3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="238336" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="9261056" MonolithLength="241664"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_G#3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="165440" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="9502720" MonolithLength="167936"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_G#3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="197656" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="9670656" MonolithLength="200704"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_G#3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="214672" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="9871360" MonolithLength="217088"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_G#3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="222056" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="10088448" MonolithLength="225280"
+          SampleRate="44100"/>
+  <sample Root="55" LoKey="55" HiKey="56" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_G3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="149824" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="10313728" MonolithLength="151552"
+          SampleRate="44100"/>
+  <sample Root="55" LoKey="55" HiKey="56" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_G3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="198784" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="10465280" MonolithLength="200704"
+          SampleRate="44100"/>
+  <sample Root="55" LoKey="55" HiKey="56" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_G3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="206208" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="10665984" MonolithLength="208896"
+          SampleRate="44100"/>
+  <sample Root="55" LoKey="55" HiKey="56" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S4_G3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="208320" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="10874880" MonolithLength="208896"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="61" HiKey="62" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_C#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="145408" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="11083776" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="61" HiKey="62" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_C#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="228544" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="11231232" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="61" HiKey="62" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_C#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="188352" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="11460608" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="61" HiKey="62" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_C#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="225888" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="11649024" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="61" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_C4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="160384" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="11878400" MonolithLength="163840"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="61" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_C4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="156056" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="12042240" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="61" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_C4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="169408" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="12201984" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="61" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_C4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="140912" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="12374016" MonolithLength="143360"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="63" HiKey="64" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_D#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="151822" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="12517376" MonolithLength="155648"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="63" HiKey="64" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_D#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="184688" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="12673024" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="63" HiKey="64" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_D#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="209920" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="12861440" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="63" HiKey="64" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_D#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="201936" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="13074432" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="62" LoKey="62" HiKey="63" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_D4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="112640" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="13279232" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="62" LoKey="62" HiKey="63" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_D4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="187680" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="13393920" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="62" LoKey="62" HiKey="63" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_D4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="229632" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="13582336" MonolithLength="233472"
+          SampleRate="44100"/>
+  <sample Root="62" LoKey="62" HiKey="63" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_D4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="239100" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="13815808" MonolithLength="241664"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="65" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_E4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="178304" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="14057472" MonolithLength="180224"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="65" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_E4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="201872" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="14237696" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="65" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_E4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="249648" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="14442496" MonolithLength="249856"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="65" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_E4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="179122" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="14692352" MonolithLength="180224"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="66" HiKey="67" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_F#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="113792" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="14872576" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="66" HiKey="67" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_F#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="158272" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="14987264" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="66" HiKey="67" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_F#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="151872" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="15147008" MonolithLength="155648"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="66" HiKey="67" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_F#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="164748" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="15302656" MonolithLength="167936"
+          SampleRate="44100"/>
+  <sample Root="65" LoKey="65" HiKey="66" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_F4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="177024" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="15470592" MonolithLength="180224"
+          SampleRate="44100"/>
+  <sample Root="65" LoKey="65" HiKey="66" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_F4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="146336" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="15650816" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="65" LoKey="65" HiKey="66" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_F4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="189696" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="15798272" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="65" LoKey="65" HiKey="66" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_F4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="201342" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="15990784" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="68" HiKey="69" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_G#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="89408" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="16195584" MonolithLength="90112"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="68" HiKey="69" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_G#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="126272" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="16285696" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="68" HiKey="69" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_G#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="151488" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="16412672" MonolithLength="151552"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="68" HiKey="69" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_G#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="201824" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="16564224" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="67" LoKey="67" HiKey="68" LoVel="1" HiVel="49" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_G4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="144000" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="16769024" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="67" LoKey="67" HiKey="68" LoVel="50" HiVel="80" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_G4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="134912" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="16916480" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="67" LoKey="67" HiKey="68" LoVel="81" HiVel="112" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_G4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="191488" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="17051648" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="67" LoKey="67" HiKey="68" LoVel="113" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Baritone_Ukelele_S3_G4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="187936" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="17244160" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="70" LoKey="70" HiKey="71" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="95872" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="17432576" MonolithLength="98304"
+          SampleRate="44100"/>
+  <sample Root="70" LoKey="70" HiKey="71" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="123360" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="17530880" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="70" LoKey="70" HiKey="71" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="133376" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="17657856" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="82" LoKey="82" HiKey="83" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A#5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="71936" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="17793024" MonolithLength="73728"
+          SampleRate="44100"/>
+  <sample Root="82" LoKey="82" HiKey="83" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A#5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="95360" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="17866752" MonolithLength="98304"
+          SampleRate="44100"/>
+  <sample Root="82" LoKey="83" HiKey="84" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A#5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="78024" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="17965056" MonolithLength="81920"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="70" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="105248" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18046976" MonolithLength="106496"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="70" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="126864" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18153472" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="70" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="126648" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18280448" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="81" LoKey="81" HiKey="82" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="89024" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18407424" MonolithLength="90112"
+          SampleRate="44100"/>
+  <sample Root="81" LoKey="81" HiKey="82" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="77424" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18497536" MonolithLength="77824"
+          SampleRate="44100"/>
+  <sample Root="81" LoKey="81" HiKey="82" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_A5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="76928" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18575360" MonolithLength="77824"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="71" HiKey="72" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_B4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="108672" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18653184" MonolithLength="110592"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="71" HiKey="72" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_B4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="114040" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18763776" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="71" HiKey="72" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_B4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="110960" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18878464" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="83" LoKey="83" HiKey="84" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_B5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="57856" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="18993152" MonolithLength="61440"
+          SampleRate="44100"/>
+  <sample Root="83" LoKey="83" HiKey="84" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_B5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="69984" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19054592" MonolithLength="73728"
+          SampleRate="44100"/>
+  <sample Root="73" LoKey="73" HiKey="74" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C#5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="133792" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19128320" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="73" LoKey="73" HiKey="74" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C#5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="125064" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19263488" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="73" LoKey="73" HiKey="74" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C#5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="157352" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19390464" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="85" LoKey="85" HiKey="86" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C#6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="50944" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19550208" MonolithLength="53248"
+          SampleRate="44100"/>
+  <sample Root="85" LoKey="85" HiKey="86" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C#6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="86040" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19603456" MonolithLength="90112"
+          SampleRate="44100"/>
+  <sample Root="85" LoKey="85" HiKey="86" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C#6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="52944" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19693568" MonolithLength="53248"
+          SampleRate="44100"/>
+  <sample Root="72" LoKey="72" HiKey="73" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="133248" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19746816" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="72" LoKey="72" HiKey="73" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="138328" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="19881984" MonolithLength="139264"
+          SampleRate="44100"/>
+  <sample Root="72" LoKey="72" HiKey="73" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="131512" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20021248" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="84" LoKey="84" HiKey="85" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="66112" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20156416" MonolithLength="69632"
+          SampleRate="44100"/>
+  <sample Root="84" LoKey="84" HiKey="85" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_C6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="67024" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20226048" MonolithLength="69632"
+          SampleRate="44100"/>
+  <sample Root="75" LoKey="75" HiKey="76" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D#5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="78176" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20295680" MonolithLength="81920"
+          SampleRate="44100"/>
+  <sample Root="75" LoKey="75" HiKey="76" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D#5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="110024" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20377600" MonolithLength="110592"
+          SampleRate="44100"/>
+  <sample Root="75" LoKey="75" HiKey="76" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D#5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="136824" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20488192" MonolithLength="139264"
+          SampleRate="44100"/>
+  <sample Root="87" LoKey="87" HiKey="115" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D#6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="49504" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20627456" MonolithLength="53248"
+          SampleRate="44100"/>
+  <sample Root="87" LoKey="87" HiKey="115" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D#6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="72696" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20680704" MonolithLength="73728"
+          SampleRate="44100"/>
+  <sample Root="87" LoKey="87" HiKey="115" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D#6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="40524" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20754432" MonolithLength="40960"
+          SampleRate="44100"/>
+  <sample Root="74" LoKey="74" HiKey="75" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="121248" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20795392" MonolithLength="122880"
+          SampleRate="44100"/>
+  <sample Root="74" LoKey="74" HiKey="75" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="79984" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="20918272" MonolithLength="81920"
+          SampleRate="44100"/>
+  <sample Root="74" LoKey="74" HiKey="75" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="146312" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21000192" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="86" LoKey="86" HiKey="87" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="57344" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21147648" MonolithLength="57344"
+          SampleRate="44100"/>
+  <sample Root="86" LoKey="86" HiKey="87" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="79152" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21204992" MonolithLength="81920"
+          SampleRate="44100"/>
+  <sample Root="86" LoKey="86" HiKey="87" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_D6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="60528" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21286912" MonolithLength="61440"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="76" HiKey="77" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_E5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="80864" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21348352" MonolithLength="81920"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="76" HiKey="77" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_E5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="120688" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21430272" MonolithLength="122880"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="76" HiKey="77" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_E5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="141312" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21553152" MonolithLength="143360"
+          SampleRate="44100"/>
+  <sample Root="78" LoKey="78" HiKey="79" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_F#5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="99968" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21696512" MonolithLength="102400"
+          SampleRate="44100"/>
+  <sample Root="78" LoKey="78" HiKey="79" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_F#5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="108616" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21798912" MonolithLength="110592"
+          SampleRate="44100"/>
+  <sample Root="78" LoKey="78" HiKey="79" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_F#5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="113048" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21909504" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="77" LoKey="77" HiKey="78" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_F5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="86752" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22024192" MonolithLength="90112"
+          SampleRate="44100"/>
+  <sample Root="77" LoKey="77" HiKey="78" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_F5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="110632" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22114304" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="77" LoKey="77" HiKey="78" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_F5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="139432" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22228992" MonolithLength="143360"
+          SampleRate="44100"/>
+  <sample Root="80" LoKey="80" HiKey="81" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_G#5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="87712" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22372352" MonolithLength="90112"
+          SampleRate="44100"/>
+  <sample Root="80" LoKey="80" HiKey="81" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_G#5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="82136" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22462464" MonolithLength="86016"
+          SampleRate="44100"/>
+  <sample Root="80" LoKey="80" HiKey="81" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_G#5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="101952" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22548480" MonolithLength="102400"
+          SampleRate="44100"/>
+  <sample Root="79" LoKey="79" HiKey="80" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_G5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="91424" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22650880" MonolithLength="94208"
+          SampleRate="44100"/>
+  <sample Root="79" LoKey="79" HiKey="80" LoVel="42" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_G5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="105616" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22745088" MonolithLength="106496"
+          SampleRate="44100"/>
+  <sample Root="79" LoKey="79" HiKey="80" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ukelele_S1_G5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="123096" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22851584" MonolithLength="126976"
+          SampleRate="44100"/>
+</samplemap>

@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="MANDO 1" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_A#3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="146557" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="0" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_A#3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="212436" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="147456" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_A#3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="203609" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="360448" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_A#3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="239096" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="565248" MonolithLength="241664"
+          SampleRate="44100"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_A3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="122074" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="806912" MonolithLength="122880"
+          SampleRate="44100"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_A3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="186704" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="929792" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_A3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="222040" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="1118208" MonolithLength="225280"
+          SampleRate="44100"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_A3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="191836" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="1343488" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_B3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="183746" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="1536000" MonolithLength="184320"
+          SampleRate="44100"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_B3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="216048" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="1720320" MonolithLength="217088"
+          SampleRate="44100"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_B3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="282992" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="1937408" MonolithLength="286720"
+          SampleRate="44100"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_B3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="267316" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="2224128" MonolithLength="270336"
+          SampleRate="44100"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="186399" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="2494464" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="160160" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="2682880" MonolithLength="163840"
+          SampleRate="44100"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="285774" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="2846720" MonolithLength="286720"
+          SampleRate="44100"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="202464" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="3133440" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="179398" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="3338240" MonolithLength="180224"
+          SampleRate="44100"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="182672" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="3518464" MonolithLength="184320"
+          SampleRate="44100"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="244034" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="3702784" MonolithLength="245760"
+          SampleRate="44100"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="219248" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="3948544" MonolithLength="221184"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="125888" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="4169728" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="190799" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="4296704" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="220230" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="4489216" MonolithLength="221184"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="185408" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="4710400" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="184950" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="4898816" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="211568" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="5087232" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="213906" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="5300224" MonolithLength="217088"
+          SampleRate="44100"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="211352" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="5517312" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_E4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="168210" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="5730304" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_E4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="228256" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="5902336" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_E4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="156853" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="6131712" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_E4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="106768" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="6291456" MonolithLength="110592"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G#3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="157083" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="6402048" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G#3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="196896" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="6561792" MonolithLength="200704"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G#3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="244573" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="6762496" MonolithLength="245760"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G#3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="208832" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="7008256" MonolithLength="208896"
+          SampleRate="44100"/>
+  <sample Root="40" LoKey="0" HiKey="40" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G3_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="167086" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="7217152" MonolithLength="167936"
+          SampleRate="44100"/>
+  <sample Root="40" LoKey="0" HiKey="40" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G3_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="185472" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="7385088" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="40" LoKey="0" HiKey="40" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G3_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="230713" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="7573504" MonolithLength="233472"
+          SampleRate="44100"/>
+  <sample Root="40" LoKey="0" HiKey="40" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G3_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="330912" Pitch="-300"
+          Pan="0" Volume="0" MonolithOffset="7806976" MonolithLength="331776"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="186399" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="8138752" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="160160" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="8327168" MonolithLength="163840"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="285774" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="8491008" MonolithLength="286720"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="202464" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="8777728" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="179398" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="8982528" MonolithLength="180224"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="182672" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="9162752" MonolithLength="184320"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="244034" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="9347072" MonolithLength="245760"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_C4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="219248" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="9592832" MonolithLength="221184"
+          SampleRate="44100"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="125888" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="9814016" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="190799" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="9940992" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="220230" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="10133504" MonolithLength="221184"
+          SampleRate="44100"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="185408" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="10354688" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="184950" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="10543104" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="211568" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="10731520" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="213906" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="10944512" MonolithLength="217088"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_D4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="211352" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="11161600" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_E4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="168210" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="11374592" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_E4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="228256" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="11546624" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_E4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="156853" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="11776000" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_E4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="106768" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="11935744" MonolithLength="110592"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_F#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="169120" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="12046336" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_F#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="134176" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="12218368" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_F#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="201208" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="12353536" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_F#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="154592" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="12558336" MonolithLength="155648"
+          SampleRate="44100"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="134176" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="12713984" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="152432" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="12849152" MonolithLength="155648"
+          SampleRate="44100"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="163716" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="13004800" MonolithLength="163840"
+          SampleRate="44100"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S4_G#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="164912" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="13168640" MonolithLength="167936"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A#4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="235224" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="13336576" MonolithLength="237568"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A#4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="242032" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="13574144" MonolithLength="245760"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A#4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="149148" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="13819904" MonolithLength="151552"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A#4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="157920" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="13971456" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="254026" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="14131200" MonolithLength="258048"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="183932" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="14389248" MonolithLength="184320"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="228980" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="14573568" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="193052" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="14802944" MonolithLength="196608"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="70" HiKey="71" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="129752" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="14999552" MonolithLength="131072"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="70" HiKey="71" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="136906" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="15130624" MonolithLength="139264"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="70" HiKey="71" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="121496" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="15269888" MonolithLength="122880"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="70" HiKey="71" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_A5_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="113088" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="15392768" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_B4_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="206304" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="15507456" MonolithLength="208896"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_B4_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="165088" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="15716352" MonolithLength="167936"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_B4_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="165792" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="15884288" MonolithLength="167936"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_B4_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="216388" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="16052224" MonolithLength="217088"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_C#5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="229432" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="16269312" MonolithLength="233472"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_C#5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="234206" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="16502784" MonolithLength="237568"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_C#5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="211924" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="16740352" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_C#5_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="275440" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="16953344" MonolithLength="278528"
+          SampleRate="44100"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_C5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="188496" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="17231872" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_C5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="192752" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="17424384" MonolithLength="196608"
+          SampleRate="44100"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_C5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="136736" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="17620992" MonolithLength="139264"
+          SampleRate="44100"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_C5_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="196416" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="17760256" MonolithLength="196608"
+          SampleRate="44100"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_D#5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="170149" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="17956864" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_D#5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="187936" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="18128896" MonolithLength="188416"
+          SampleRate="44100"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_D#5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="174152" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="18317312" MonolithLength="176128"
+          SampleRate="44100"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_D#5_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="175400" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="18493440" MonolithLength="176128"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_D5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="156411" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="18669568" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_D5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="227696" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="18829312" MonolithLength="229376"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_D5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="210144" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="19058688" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_D5_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="144784" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="19271680" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_E5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="159320" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="19419136" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_E5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="190680" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="19578880" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_E5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="175632" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="19771392" MonolithLength="176128"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="66" HiKey="67" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_E5_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="174416" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="19947520" MonolithLength="176128"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_F#5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="194320" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="20123648" MonolithLength="196608"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_F#5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="171584" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="20320256" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_F#5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="122474" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="20492288" MonolithLength="122880"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_F#5_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="153358" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="20615168" MonolithLength="155648"
+          SampleRate="44100"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_F5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="166656" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="20770816" MonolithLength="167936"
+          SampleRate="44100"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_F5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="180320" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="20938752" MonolithLength="184320"
+          SampleRate="44100"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_F5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="105472" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="21123072" MonolithLength="106496"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_G5_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="139384" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="21229568" MonolithLength="143360"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_G5_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="140868" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="21372928" MonolithLength="143360"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_G5_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="95000" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="21516288" MonolithLength="98304"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S2_G5_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="84256" Pitch="200"
+          Pan="0" Volume="0" MonolithOffset="21614592" MonolithLength="86016"
+          SampleRate="44100"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_C#6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="138208" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21700608" MonolithLength="139264"
+          SampleRate="44100"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_C#6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="91984" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21839872" MonolithLength="94208"
+          SampleRate="44100"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_C#6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="175256" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="21934080" MonolithLength="176128"
+          SampleRate="44100"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_C#6_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="144296" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22110208" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_C6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="140728" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22257664" MonolithLength="143360"
+          SampleRate="44100"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_C6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="148176" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22401024" MonolithLength="151552"
+          SampleRate="44100"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_C6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="106032" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22552576" MonolithLength="106496"
+          SampleRate="44100"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_C6_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="100352" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22659072" MonolithLength="102400"
+          SampleRate="44100"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_D#6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="89040" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22761472" MonolithLength="90112"
+          SampleRate="44100"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_D#6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="111370" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22851584" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_D#6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="129400" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="22966272" MonolithLength="131072"
+          SampleRate="44100"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_D#6_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="141972" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="23097344" MonolithLength="143360"
+          SampleRate="44100"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_D6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="145488" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="23240704" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_D6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="102928" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="23388160" MonolithLength="106496"
+          SampleRate="44100"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_D6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="167512" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="23494656" MonolithLength="167936"
+          SampleRate="44100"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_D6_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="143536" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="23662592" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="76" HiKey="115" LoVel="1" HiVel="31" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_E6_V1.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="124880" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="23810048" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="76" HiKey="115" LoVel="32" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_E6_V2.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="106603" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="23937024" MonolithLength="110592"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="76" HiKey="115" LoVel="63" HiVel="94" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_E6_V3.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="86596" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="24047616" MonolithLength="90112"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="76" HiKey="115" LoVel="95" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Mandolin_S1_E6_V4.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="114396" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="24137728" MonolithLength="114688"
+          SampleRate="44100"/>
+</samplemap>

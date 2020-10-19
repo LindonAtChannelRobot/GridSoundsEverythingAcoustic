@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="HARMONICS 1" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="68" LoKey="66" HiKey="115" LoVel="31" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S1_12th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="137712" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="0" MonolithLength="139264"
+          SampleRate="44100"/>
+  <sample Root="52" LoKey="51" HiKey="52" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S1_15th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="193498" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="139264" MonolithLength="196608"
+          SampleRate="44100"/>
+  <sample Root="68" LoKey="66" HiKey="115" LoVel="1" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S1_2nd.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="72682" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="335872" MonolithLength="73728"
+          SampleRate="44100"/>
+  <sample Root="64" LoKey="64" HiKey="65" LoVel="31" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S1_7th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="134665" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="409600" MonolithLength="135168"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="58" HiKey="60" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S1_9th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="170343" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="544768" MonolithLength="172032"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="61" HiKey="63" LoVel="31" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S2_12th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="218920" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="716800" MonolithLength="221184"
+          SampleRate="44100"/>
+  <sample Root="47" LoKey="46" HiKey="48" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S2_15th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="257218" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="937984" MonolithLength="258048"
+          SampleRate="44100"/>
+  <sample Root="63" LoKey="61" HiKey="65" LoVel="1" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S2_2nd.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="194656" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1196032" MonolithLength="196608"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="58" HiKey="60" LoVel="31" HiVel="50" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S2_5th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="148997" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1392640" MonolithLength="151552"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="53" HiKey="54" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S2_7th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="138790" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1544192" MonolithLength="139264"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="57" LoVel="31" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S2_9th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="253088" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1683456" MonolithLength="253952"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="58" HiKey="60" LoVel="51" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S3_12th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="157542" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="1937408" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="31" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S3_15th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="321122" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2097152" MonolithLength="323584"
+          SampleRate="44100"/>
+  <sample Root="59" LoKey="58" HiKey="60" LoVel="1" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S3_2nd.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="129408" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2420736" MonolithLength="131072"
+          SampleRate="44100"/>
+  <sample Root="31" LoKey="0" HiKey="40" LoVel="1" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S3_5th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="151217" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2551808" MonolithLength="151552"
+          SampleRate="44100"/>
+  <sample Root="55" LoKey="55" HiKey="57" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S3_7th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="268848" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2703360" MonolithLength="270336"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="49" HiKey="50" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S3_9thj.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="231388" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="2973696" MonolithLength="233472"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="54" HiKey="56" LoVel="1" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S4_12th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="190696" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="3207168" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="38" LoKey="38" HiKey="39" LoVel="58" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S4_15th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="203616" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="3399680" MonolithLength="204800"
+          SampleRate="44100"/>
+  <sample Root="50" LoKey="44" HiKey="53" LoVel="31" HiVel="84" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S4_7th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="151824" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="3604480" MonolithLength="155648"
+          SampleRate="44100"/>
+  <sample Root="45" LoKey="41" HiKey="45" LoVel="1" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S4_9th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="252306" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="3760128" MonolithLength="253952"
+          SampleRate="44100"/>
+  <sample Root="49" LoKey="46" HiKey="53" LoVel="1" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S5_12th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="244175" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="4014080" MonolithLength="245760"
+          SampleRate="44100"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="58" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S5_15th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="316078" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="4259840" MonolithLength="319488"
+          SampleRate="44100"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="1" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S5_2nd.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="121476" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="4579328" MonolithLength="122880"
+          SampleRate="44100"/>
+  <sample Root="45" LoKey="44" HiKey="45" LoVel="85" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S5_7th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="247551" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="4702208" MonolithLength="249856"
+          SampleRate="44100"/>
+  <sample Root="40" LoKey="40" HiKey="42" LoVel="31" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S5_9th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="261756" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="4952064" MonolithLength="262144"
+          SampleRate="44100"/>
+  <sample Root="28" LoKey="0" HiKey="31" LoVel="58" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S6_15th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="372525" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="5214208" MonolithLength="372736"
+          SampleRate="44100"/>
+  <sample Root="40" LoKey="0" HiKey="39" LoVel="31" HiVel="57" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S6_7th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="221229" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="5586944" MonolithLength="225280"
+          SampleRate="44100"/>
+  <sample Root="35" LoKey="35" HiKey="37" LoVel="58" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}AcousticHarm_S6_9th.wav" Duplicate="1"
+          SampleStartMod="0" SampleStart="0" SampleEnd="304132" Pitch="0"
+          Pan="0" Volume="0" MonolithOffset="5812224" MonolithLength="307200"
+          SampleRate="44100"/>
+</samplemap>
