@@ -1746,8 +1746,8 @@
              max="20000" stepSize="1" suffix=" ms" middlePosition="1000" numStrips="31"
              filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png" width="36"
              height="36" showValuePopup="Above" mouseSensitivity="0.2"/>
-  <Component type="ScriptButton" id="EnvelopeLaunch" x="350" y="460" width="103"
-             height="14" filmstripImage="{PROJECT_FOLDER}eqLaunchBlank.png"
+  <Component type="ScriptButton" id="EnvelopeLaunch" x="350" y="460" width="106"
+             height="13" filmstripImage="{PROJECT_FOLDER}eqLaunchBlank.png"
              numStrips="6"/>
   <Component type="ScriptPanel" id="EnvelopePanel" x="236" y="149" width="509"
              height="221" itemColour="3833376449" itemColour2="4285032552"
@@ -1888,8 +1888,8 @@
     <Component type="ScriptSlider" id="ShapePanelMix" x="408" y="114" middlePosition="0.5"
                numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" mouseSensitivity="0.2"
-               parentComponent="ShapePanel" mode="NormalizedPercentage" stepSize="0.1"
-               defaultValue="0.2"/>
+               parentComponent="ShapePanel" mode="NormalizedPercentage" defaultValue="0.2"
+               suffix="%"/>
   </Component>
   <Component type="ScriptSlider" id="Reverb" x="578" y="418" mode="NormalizedPercentage"
              max="0.5" middlePosition="0.25" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -1934,7 +1934,7 @@
                parentComponent="ReverbPanel" mode="NormalizedPercentage" defaultValue="0.2"
                suffix="%"/>
   </Component>
-  <Component type="ScriptSlider" id="MAsterVolume" x="677" y="415" mode="Decibel"
+  <Component type="ScriptSlider" id="MAsterVolume" x="676" y="415" mode="Decibel"
              max="12" stepSize="1" middlePosition="0" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob.png"
              width="42" height="42" showValuePopup="Above" min="-100" mouseSensitivity="0.2"/>
   <Component type="ScriptPanel" id="EffectsPanel" x="0" y="0" borderSize="0"
@@ -1957,7 +1957,7 @@
                suffix="%" mouseSensitivity="0.2"/>
     <Component type="ScriptButton" id="PhsrOnOff" x="62" y="85" parentComponent="EffectsPanel"
                width="17" height="17" filmstripImage="{PROJECT_FOLDER}OnOffTransButton.png"/>
-    <Component type="ScriptSlider" id="PhaserFreq1" x="105" y="116" mode="Frequency"
+    <Component type="ScriptSlider" id="PhaserFreq1" x="106" y="116" mode="Frequency"
                middlePosition="1500" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
                suffix=" Hz" min="20" max="20000" stepSize="1" mouseSensitivity="0.2"/>
@@ -1977,7 +1977,7 @@
                middlePosition="9" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
                text="ChsWidth" max="18" stepSize="1" defaultValue="2" mouseSensitivity="0.2"/>
-    <Component type="ScriptSlider" id="PhaserLFODepth" x="270" y="116" mode="NormalizedPercentage"
+    <Component type="ScriptSlider" id="PhaserLFODepth" x="271" y="116" mode="NormalizedPercentage"
                middlePosition="0.5" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
                suffix="%" mouseSensitivity="0.2"/>
@@ -1991,7 +1991,7 @@
                middlePosition="0.5" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
                suffix="%" mouseSensitivity="0.2"/>
-    <Component type="ScriptSlider" id="DelayMix" x="469" y="402" mode="NormalizedPercentage"
+    <Component type="ScriptSlider" id="DelayMix" x="470" y="402" mode="NormalizedPercentage"
                middlePosition="0.5" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
                suffix="%" mouseSensitivity="0.2"/>
@@ -2028,7 +2028,7 @@
                width="17" height="17" filmstripImage="{PROJECT_FOLDER}OnOffTransButton.png"/>
     <Component type="ScriptTable" id="GainLFOTable" x="63" y="200" width="187"
                height="100" processorId="GlobalGainLFO" parentComponent="ModsPanel"/>
-    <Component type="ScriptSlider" id="GainLFODepth" x="106" y="133" mode="NormalizedPercentage"
+    <Component type="ScriptSlider" id="GainLFODepth" x="107" y="133" mode="NormalizedPercentage"
                middlePosition="0.5" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="ModsPanel"
                suffix="%" mouseSensitivity="0.2"/>
@@ -2058,13 +2058,13 @@
                width="187" height="100" fileName="{PROJECT_FOLDER}triangleImage.png"
                visible="0"/>
     <Component type="ScriptImage" id="PitchSineImage" x="296" y="200" parentComponent="ModsPanel"
-               width="187" height="100" fileName="{PROJECT_FOLDER}SineImage.png"
-               visible="0"/>
+               width="187" height="100" fileName="{PROJECT_FOLDER}SineImage.png"/>
     <Component type="ScriptButton" id="PitchLFOOnOff" x="323" y="99" parentComponent="ModsPanel"
                width="17" height="17" filmstripImage="{PROJECT_FOLDER}OnOffTransButton.png"/>
     <Component type="ScriptTable" id="PitchLFOTable" x="296" y="200" width="189"
-               height="100" processorId="GlobalPitchLFO" parentComponent="ModsPanel"/>
-    <Component type="ScriptSlider" id="PitchLFODepth" x="337" y="133" middlePosition="0"
+               height="100" processorId="GlobalPitchLFO" parentComponent="ModsPanel"
+               visible="0"/>
+    <Component type="ScriptSlider" id="PitchLFODepth" x="336" y="133" middlePosition="0"
                numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="ModsPanel"
                min="-2" max="2" suffix=" st" mouseSensitivity="0.2"/>
@@ -2076,11 +2076,11 @@
                width="17" height="17" filmstripImage="{PROJECT_FOLDER}OnOffTransButton.png"/>
     <Component type="ScriptTable" id="FreqLFOTable" x="524" y="200" width="191"
                height="100" processorId="FreqModulator1" parentComponent="ModsPanel"/>
-    <Component type="ScriptSlider" id="FreqLFODepth" x="571" y="133" mode="NormalizedPercentage"
+    <Component type="ScriptSlider" id="FreqLFODepth" x="570" y="133" mode="NormalizedPercentage"
                middlePosition="0.5" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="ModsPanel"
                suffix="%" mouseSensitivity="0.2"/>
-    <Component type="ScriptSlider" id="FreqLFORate" x="628" y="133" mode="TempoSync"
+    <Component type="ScriptSlider" id="FreqLFORate" x="625" y="133" mode="TempoSync"
                middlePosition="9" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="ModsPanel"
                text="ChsWidth" max="18" stepSize="1" defaultValue="2" mouseSensitivity="0.2"/>
@@ -2110,11 +2110,11 @@
                visible="0"/>
     <Component type="ScriptButton" id="GlideOnOff" x="92" y="365" parentComponent="ModsPanel"
                width="17" height="17" filmstripImage="{PROJECT_FOLDER}OnOffTransButton.png"/>
-    <Component type="ScriptSlider" id="GlideTime" x="70" y="400" middlePosition="150"
+    <Component type="ScriptSlider" id="GlideTime" x="71" y="400" middlePosition="150"
                numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="ModsPanel"
                text="ChsWidth" defaultValue="80" max="300" stepSize="1" mouseSensitivity="0.2"/>
-    <Component type="ScriptSlider" id="GlideUP" x="136" y="400" middlePosition="3"
+    <Component type="ScriptSlider" id="GlideUP" x="137" y="400" middlePosition="3"
                numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="ModsPanel"
                text="ChsWidth" defaultValue="2" max="12" stepSize="0.1" min="0.2"
@@ -2124,7 +2124,7 @@
                width="36" height="36" showValuePopup="Above" parentComponent="ModsPanel"
                text="ChsWidth" defaultValue="2" max="12" stepSize="0.1" min="0.2"
                suffix=" st" mouseSensitivity="0.2"/>
-    <Component type="ScriptSlider" id="GlideSmoothing" x="277" y="400" middlePosition="300"
+    <Component type="ScriptSlider" id="GlideSmoothing" x="278" y="400" middlePosition="300"
                numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="ModsPanel"
                text="ChsWidth" defaultValue="80" max="600" stepSize="0.1" suffix=" ms"
@@ -2139,9 +2139,9 @@
                width="17" height="17" filmstripImage="{PROJECT_FOLDER}OnOffTransButton.png"/>
   </Component>
   <Component type="ScriptPanel" id="ArpPanel" x="1" y="1" borderSize="0" borderRadius="0"
-             width="754" height="512" visible="0">
-    <Component type="ScriptImage" id="ArpBack" x="0" y="44" parentComponent="ArpPanel"
-               width="750" height="468" fileName="{PROJECT_FOLDER}EverythingAcoustic_ARP.png"
+             width="754" height="512">
+    <Component type="ScriptImage" id="ArpBack" x="0" y="43" parentComponent="ArpPanel"
+               width="750" height="469" fileName="{PROJECT_FOLDER}EverythingAcoustic_ARP.png"
                alpha="12"/>
     <Component type="ScriptButton" id="IgnoreInput" x="280" y="282" parentComponent="ArpPanel"
                width="17" height="17" text="Arp Notes Only" filmstripImage="{PROJECT_FOLDER}OnOffTransButton.png"/>
@@ -2203,7 +2203,7 @@
   <Component type="ScriptPanel" id="HeaderPanel" x="0" y="0" width="756" height="45"
              itemColour="0" itemColour2="0" borderSize="0">
     <Component type="ScriptImage" id="HeaderBackground" x="0" y="0" parentComponent="HeaderPanel"
-               fileName="{PROJECT_FOLDER}EverythingAcoustic_TOP.png" width="750"
+               fileName="{PROJECT_FOLDER}EverythingAcoustic_HEADER.png" width="750"
                height="45"/>
     <Component type="ScriptButton" id="Main" x="43" y="0" filmstripImage="{PROJECT_FOLDER}MAIN_button.png"
                width="43" height="32" radioGroup="99" numStrips="6" parentComponent="HeaderPanel"/>
@@ -2213,32 +2213,32 @@
                width="62" height="32" radioGroup="99" numStrips="6" parentComponent="HeaderPanel"/>
     <Component type="ScriptButton" id="Mods" x="186" y="0" filmstripImage="{PROJECT_FOLDER}MOD_button.png"
                width="42" height="32" radioGroup="99" numStrips="6" parentComponent="HeaderPanel"/>
-    <Component type="ScriptPanel" id="PresetsPanel" x="235" y="4" parentComponent="HeaderPanel"
+    <Component type="ScriptPanel" id="PresetsPanel" x="231" y="4" parentComponent="HeaderPanel"
                itemColour="0" itemColour2="0" height="35" width="253" borderRadius="0"
                borderSize="0" bgColour="16777215" textColour="16777215">
-      <Component type="ScriptPanel" id="PresetFrame" x="3" y="3" width="249" height="29"
+      <Component type="ScriptPanel" id="PresetFrame" x="3" y="3" width="230" height="29"
                  borderRadius="0" borderSize="1" bgColour="16777215" itemColour="0"
                  itemColour2="16777215" textColour="1325400063" parentComponent="PresetsPanel">
-        <Component type="ScriptButton" id="Presets" x="3" y="1" filmstripImage="{PROJECT_FOLDER}PresetsButton2.png"
-                   width="218" height="29" saveInPreset="0" parentComponent="PresetFrame"
+        <Component type="ScriptButton" id="Presets" x="0" y="0" filmstripImage="{PROJECT_FOLDER}PresetsButton2.png"
+                   width="200" height="29" saveInPreset="0" parentComponent="PresetFrame"
                    itemColour="36909875" bgColour="16777215"/>
         <Component type="ScriptLabel" id="myPresetName" x="0" y="1" text="EMPTY"
-                   editable="0" fontSize="12" width="219" height="26" itemColour="16777215"
+                   editable="0" fontSize="12" width="200" height="28" itemColour="16777215"
                    itemColour2="4278190080" parentComponent="PresetFrame" alignment="left"
                    bgColour="5789784"/>
-        <Component type="ScriptButton" id="NextUserPreset" x="231" y="5" width="18"
+        <Component type="ScriptButton" id="NextUserPreset" x="212" y="5" width="18"
                    height="20" filmstripImage="{PROJECT_FOLDER}Next Button 32X32 2States.png"
                    parentComponent="PresetFrame" isMomentary="1" scaleFactor="0.6"/>
-        <Component type="ScriptButton" id="PrevUserPreset" x="217" y="5" width="17"
+        <Component type="ScriptButton" id="PrevUserPreset" x="197" y="5" width="17"
                    height="20" filmstripImage="{PROJECT_FOLDER}Previous Button 32X32 2States.png"
                    parentComponent="PresetFrame" isMomentary="1" scaleFactor="0.6"/>
       </Component>
     </Component>
-    <Component type="ScriptSlider" id="MasterPitch" x="542" y="10" max="12"
-               stepSize="0.1" middlePosition="0" numStrips="201" filmstripImage="{PROJECT_FOLDER}panBar.png"
-               width="67" height="13" showValuePopup="Above" min="-12" mouseSensitivity="0.6"
+    <Component type="ScriptSlider" id="MasterPitch" x="512" y="9" max="12" stepSize="0.1"
+               middlePosition="0" numStrips="201" filmstripImage="{PROJECT_FOLDER}panBar.png"
+               width="67" height="13" showValuePopup="Below" min="-12" mouseSensitivity="0.6"
                parentComponent="HeaderPanel" suffix=" st" scaleFactor="0.65"/>
-    <Component type="ScriptSlider" id="MasterPan" x="542" y="24" parentComponent="HeaderPanel"
+    <Component type="ScriptSlider" id="MasterPan" x="512" y="24" parentComponent="HeaderPanel"
                height="13" width="68" min="-100" max="100" stepSize="1" middlePosition="0"
                filmstripImage="{PROJECT_FOLDER}panBar.png" numStrips="201" processorId="GainMaster"
                parameterId="Balance" scaleFactor="0.65"/>
@@ -2255,6 +2255,8 @@
     <Component type="ScriptButton" id="SettingsSelector" x="714" y="6" text="Settings"
                width="31" height="27" filmstripImage="{PROJECT_FOLDER}BLANK_ICON.png"
                scaleFactor="0.5" parentComponent="HeaderPanel"/>
+    <Component type="ScriptButton" id="MasterMute" x="590" y="11" parentComponent="HeaderPanel"
+               height="22" width="22" filmstripImage="{PROJECT_FOLDER}MUTE_BUTTON.png"/>
   </Component>
   <Component type="ScriptFloatingTile" id="PresetPanel" x="0" y="45" ContentType="PresetBrowser"
              bgColour="4282927176" itemColour="4294967295" itemColour2="4294951115"

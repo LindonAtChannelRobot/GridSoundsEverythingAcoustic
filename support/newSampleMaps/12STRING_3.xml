@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<samplemap ID="12 STRING 3" RRGroupAmount="1" MicPositions=";">
+    <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A#3_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="282112" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="70" LoKey="70" HiKey="70" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A#3_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="241216" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="70" LoKey="70" HiKey="70" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A#3_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="244800" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="70" LoKey="70" HiKey="70" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A#3_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="326096" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="82" LoKey="82" HiKey="82" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A#4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="215168" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="82" LoKey="82" HiKey="82" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A#4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="170688" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="82" LoKey="82" HiKey="82" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A#4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="218976" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="82" LoKey="82" HiKey="82" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A#4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="187688" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A3_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="236544" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="69" LoKey="69" HiKey="69" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A3_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="295808" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="69" LoKey="69" HiKey="69" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A3_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="232784" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="69" LoKey="69" HiKey="69" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A3_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="260544" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="81" LoKey="81" HiKey="81" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="208640" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="81" LoKey="81" HiKey="81" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="198336" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="81" LoKey="81" HiKey="81" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="255112" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="81" LoKey="81" HiKey="81" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_A4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="233948" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_B3_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="302592" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="71" LoKey="71" HiKey="71" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_B3_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="303808" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="71" LoKey="71" HiKey="71" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_B3_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="304240" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="71" LoKey="71" HiKey="71" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_B3_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="373184" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="83" LoKey="83" HiKey="83" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_B4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="131904" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="83" LoKey="83" HiKey="83" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_B4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="133632" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="83" LoKey="83" HiKey="83" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_B4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="171232" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="83" LoKey="83" HiKey="83" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_B4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="180888" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="73" LoKey="73" HiKey="73" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C#4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="307840" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="73" LoKey="73" HiKey="73" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C#4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="361280" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="73" LoKey="73" HiKey="73" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C#4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="393600" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="73" LoKey="73" HiKey="73" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C#4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="378584" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="281600" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="72" LoKey="72" HiKey="72" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="280256" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="72" LoKey="72" HiKey="72" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="310216" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="72" LoKey="72" HiKey="72" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="328240" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="84" LoKey="84" HiKey="127" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C5_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="117504" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="84" LoKey="84" HiKey="127" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C5_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="152576" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="84" LoKey="84" HiKey="127" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C5_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="160744" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="84" LoKey="84" HiKey="127" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_C5_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="189688" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="75" LoKey="75" HiKey="75" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_D#4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="300672" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="75" LoKey="75" HiKey="75" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_D#4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="329344" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="75" LoKey="75" HiKey="75" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_D#4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="396640" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="75" LoKey="75" HiKey="75" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_D#4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="376680" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="74" LoKey="74" HiKey="74" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_D4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="264192" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="74" LoKey="74" HiKey="74" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_D4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="309504" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="74" LoKey="74" HiKey="74" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_D4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="333376" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="74" LoKey="74" HiKey="74" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_D4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="405568" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="76" LoKey="76" HiKey="76" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_E4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="344704" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="76" LoKey="76" HiKey="76" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_E4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="321664" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="76" LoKey="76" HiKey="76" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_E4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="352544" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="76" LoKey="76" HiKey="76" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_E4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="378760" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="78" LoKey="78" HiKey="78" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_F#4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="289920" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="78" LoKey="78" HiKey="78" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_F#4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="267264" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="78" LoKey="78" HiKey="78" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_F#4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="267818" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="77" LoKey="77" HiKey="77" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_F4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="296832" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="77" LoKey="77" HiKey="77" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_F4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="285696" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="77" LoKey="77" HiKey="78" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_F4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="283248" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="77" LoKey="77" HiKey="77" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_F4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="339116" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G#3_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="353504" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="68" LoKey="68" HiKey="68" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G#3_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="307072" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="68" LoKey="68" HiKey="68" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G#3_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="339840" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="68" LoKey="68" HiKey="68" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G#3_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="417792" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="80" LoKey="80" HiKey="80" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G#4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="294656" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="80" LoKey="80" HiKey="80" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G#4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="282048" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="80" LoKey="80" HiKey="80" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G#4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="259432" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="80" LoKey="80" HiKey="80" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G#4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="320424" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="67" LoKey="0" HiKey="67" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G3_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="357632" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="67" LoKey="0" HiKey="67" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G3_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="325376" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="67" LoKey="0" HiKey="67" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G3_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="368648" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="67" LoKey="0" HiKey="67" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G3_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="438920" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="79" LoKey="79" HiKey="79" LoVel="1" HiVel="46" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G4_V1.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="260224" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="79" LoKey="79" HiKey="79" LoVel="47" HiVel="77" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G4_V2.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="309632" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="79" LoKey="79" HiKey="79" LoVel="78" HiVel="109" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G4_V3.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="323500" Pitch="0" Pan="0" Volume="0"/>
+    <sample Root="79" LoKey="79" HiKey="79" LoVel="110" HiVel="127" RRGroup="1" FileName="{PROJECT_FOLDER}12_String_S3_G4_V4.wav" Duplicate="0" 
+            SampleStartMod="0" SampleStart="0" SampleEnd="267818" Pitch="100" Pan="0" Volume="0"/>
+</samplemap>

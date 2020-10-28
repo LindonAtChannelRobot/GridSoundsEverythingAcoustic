@@ -357,16 +357,17 @@ inline function onReverbControl(component, value)
 Content.getComponent("Reverb").setControlCallback(onReverbControl);
 
 
+
 // GAIN MASTER
 
 inline function onMAsterVolumeControl(component, value)
 {
 	//
-	GainMaster.setAttribute(GainMaster.Gain, value);
+	if (MasterMute.getValue() == 0)
+	    GainMaster.setAttribute(GainMaster.Gain, value);
 };
 
 Content.getComponent("MAsterVolume").setControlCallback(onMAsterVolumeControl);
-
 
 // MAIN selector
 
@@ -1757,6 +1758,26 @@ Content.getComponent("FreqLFOShapeSelector").setControlCallback(onFreqLFOShapeSe
 
 // END MODS UPDATE
 
+// MUTE UPDATE
+const var MAsterVolume = Content.getComponent("MAsterVolume");
+const var MasterMute = Content.getComponent("MasterMute");
+
+
+
+
+inline function onMasterMuteControl(component, value)
+{
+	//
+	if (value)
+	    GainMaster.setAttribute(GainMaster.Gain, -100);
+	else
+	    GainMaster.setAttribute(GainMaster.Gain,MAsterVolume.getValue() );
+};
+
+Content.getComponent("MasterMute").setControlCallback(onMasterMuteControl);
+
+
+// END MUTE UPDATE
 function onNoteOn()
 {
 	

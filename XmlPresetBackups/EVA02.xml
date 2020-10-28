@@ -296,19 +296,19 @@
             <Control type="ScriptSlider" id="EnvPanelSustaiin" value="-8"/>
             <Control type="ScriptSlider" id="EnvPanelRelease" value="189"/>
             <Control type="ScriptSlider" id="CutOff" value="20000"/>
-            <Control type="ScriptButton" id="FilterLaunch" value="1"/>
-            <Control type="ScriptButton" id="FilterDismiss" value="1"/>
+            <Control type="ScriptButton" id="FilterLaunch" value="0"/>
+            <Control type="ScriptButton" id="FilterDismiss" value="0"/>
             <Control type="ScriptSlider" id="PanelFilterCutoff" value="20000"/>
             <Control type="ScriptComboBox" id="FilterTypeSelector" value="1"/>
             <Control type="ScriptSlider" id="PanelFilterResonance" value="0.3"/>
             <Control type="ScriptSlider" id="Drive" value="0"/>
             <Control type="ScriptButton" id="DriveLaunch" value="0"/>
-            <Control type="ScriptButton" id="ShapeDismiss" value="1"/>
+            <Control type="ScriptButton" id="ShapeDismiss" value="0"/>
             <Control type="ScriptComboBox" id="ShapeType" value="1"/>
             <Control type="ScriptSlider" id="ShapeLoPass" value="20000"/>
             <Control type="ScriptSlider" id="ShapeHiPass" value="200"/>
             <Control type="ScriptSlider" id="ShapePanelDrive" value="0"/>
-            <Control type="ScriptSlider" id="ShapePanelMix" value="0.2"/>
+            <Control type="ScriptSlider" id="ShapePanelMix" value="0.24"/>
             <Control type="ScriptSlider" id="Reverb" value="0.4"/>
             <Control type="ScriptButton" id="ReverbLaunch" value="0"/>
             <Control type="ScriptButton" id="ReverbDismiss" value="1"/>
@@ -337,7 +337,7 @@
             <Control type="ScriptTable" id="GainLFOTable" value="0" data="72...............vOlv1.9....9C..fzO8WNh9........v1OvbDo9....9C...1Ok78Q+....9C...3O...f+........fzO"/>
             <Control type="ScriptSlider" id="GainLFODepth" value="0.32"/>
             <Control type="ScriptSlider" id="GainLFORate" value="9"/>
-            <Control type="ScriptComboBox" id="PitchLFOShapeSelector" value="6"/>
+            <Control type="ScriptComboBox" id="PitchLFOShapeSelector" value="1"/>
             <Control type="ScriptButton" id="PitchLFOOnOff" value="0"/>
             <Control type="ScriptTable" id="PitchLFOTable" value="0" data="60...............vOk5Ok9f8nv6C...fO7lQ79fT358C..fzOqU.K+vLyL6C...ZO...f+........v1O"/>
             <Control type="ScriptSlider" id="PitchLFODepth" value="1.23"/>
@@ -358,7 +358,7 @@
             <Control type="ScriptButton" id="IgnoreInput" value="1"/>
             <Control type="ScriptButton" id="arpLatchReset" value="0"/>
             <Control type="ScriptButton" id="arpHold" value="0"/>
-            <Control type="ScriptButton" id="ArpBypass" value="1"/>
+            <Control type="ScriptButton" id="ArpBypass" value="0"/>
             <Control type="ScriptSliderPack" id="VelocitySliderPack" value="2" data="56....UBA..fJD..HoP..fjBA..RJD..HoP..fjBA..RJD..HoP..fjBA..RJD..HoP..fjBA..RJD"/>
             <Control type="ScriptSliderPack" id="NoteLengthSliderPack" value="11"
                      data="56....RBA..LID..XoP..fkBA..VJD..XoP..fkBA..VJD..XoP..fkBA..VJD..XoP..fkBA..VJD"/>
@@ -374,17 +374,18 @@
             <Control type="ScriptButton" id="ArpDownUp" value="0"/>
             <Control type="ScriptButton" id="ArpRandom" value="1"/>
             <Control type="ScriptButton" id="arpPitchReset" value="0"/>
-            <Control type="ScriptButton" id="Main" value="1"/>
-            <Control type="ScriptButton" id="Arp" value="0"/>
+            <Control type="ScriptButton" id="Main" value="0"/>
+            <Control type="ScriptButton" id="Arp" value="1"/>
             <Control type="ScriptButton" id="Effects" value="0"/>
             <Control type="ScriptButton" id="Mods" value="0"/>
             <Control type="ScriptButton" id="NextUserPreset" value="0"/>
             <Control type="ScriptButton" id="PrevUserPreset" value="0"/>
             <Control type="ScriptSlider" id="MasterPitch" value="1.78814e-07"/>
-            <Control type="ScriptSlider" id="MasterPan" value="-1"/>
+            <Control type="ScriptSlider" id="MasterPan" value="1"/>
             <Control type="ScriptSlider" id="LeftMasterVU" value="-100"/>
             <Control type="ScriptSlider" id="RightMasterVU" value="-100"/>
             <Control type="ScriptButton" id="SettingsSelector" value="0"/>
+            <Control type="ScriptButton" id="MasterMute" value="0"/>
             <Control type="ScriptSlider" id="IRRETimbre" value="0.16"/>
             <Control type="ScriptSlider" id="IRREPitch" value="0.03"/>
           </Content>
@@ -443,7 +444,7 @@
         <Processor Type="ShapeFX" ID="Shape FX1" Bypassed="1" Curve="" BiasLeft="0"
                    BiasRight="0" HighPass="200" LowPass="20000" Mode="1" Oversampling="5"
                    Gain="0" Reduce="0" Autogain="1" LimitInput="0" Drive="15.6"
-                   Mix="0.2" BypassFilters="0">
+                   Mix="0.24" BypassFilters="0">
           <ChildProcessors/>
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
@@ -487,7 +488,7 @@
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
         <Processor Type="SimpleGain" ID="GainMaster" Bypassed="0" Gain="1" Delay="0"
-                   Width="100" Balance="-1" InvertPolarity="0">
+                   Width="100" Balance="1" InvertPolarity="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -526,7 +527,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="LFO" ID="GlobalPitchLFO" Bypassed="1" Intensity="1" Frequency="7"
-                       FadeIn="1000" WaveformType="6" Legato="1" TempoSync="1" SmoothingTime="5"
+                       FadeIn="1000" WaveformType="1" Legato="1" TempoSync="1" SmoothingTime="5"
                        LoopEnabled="1" PhaseOffset="0" CustomWaveform="60...............vOk5Ok9f8nv6C...fO7lQ79fT358C..fzOqU.K+vLyL6C...ZO...f+........v1O"
                        StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
               <ChildProcessors>
@@ -574,7 +575,7 @@
             <Processor Type="Arpeggiator" ID="Arpeggiator1" Bypassed="0">
               <ChildProcessors/>
               <Content>
-                <Control type="ScriptButton" id="BypassButton" value="0"/>
+                <Control type="ScriptButton" id="BypassButton" value="1"/>
                 <Control type="ScriptButton" id="ResetButton" value="1"/>
                 <Control type="ScriptSlider" id="NumStepSlider" value="14"/>
                 <Control type="ScriptSlider" id="StepReset" value="0"/>
@@ -639,7 +640,7 @@
             <Processor Type="ScriptProcessor" ID="ArpFilter" Bypassed="0">
               <ChildProcessors/>
               <Content>
-                <Control type="ScriptButton" id="isArpOn" value="1"/>
+                <Control type="ScriptButton" id="isArpOn" value="0"/>
                 <Control type="ScriptButton" id="isIgnoreOn" value="0"/>
               </Content>
               <UIData>
@@ -660,7 +661,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="CurveEq" ID="IRREEQMASTER" Bypassed="0" NumFilters="1"
-                       Band0="0.180655" Band1="267.156" Band2="0.3" Band3="1" Band4="4"
+                       Band0="0.0670873" Band1="724.545" Band2="0.3" Band3="1" Band4="4"
                        FFTEnabled="0">
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
@@ -732,7 +733,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch1" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch1" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -866,7 +867,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch2" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch2" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1000,7 +1001,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch3" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch3" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1134,7 +1135,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch4" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch4" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1268,7 +1269,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch5" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch5" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1402,7 +1403,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch6" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch6" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1536,7 +1537,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch7" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch7" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1670,7 +1671,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch8" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch8" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1804,7 +1805,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch9" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch9" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1938,7 +1939,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch10" Bypassed="0" Intensity="-0.0010007"
+                <Processor Type="Constant" ID="IRREPitch10" Bypassed="0" Intensity="-0.000466184"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
