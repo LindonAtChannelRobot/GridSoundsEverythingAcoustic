@@ -12,34 +12,34 @@
              height="170" borderSize="0" borderRadius="0" itemColour2="0"
              itemColour="0" bgColour="16777215" textColour="16777215">
     <Component type="ScriptButton" id="FXLaunchVoice0" x="6" y="11" width="212"
-               height="13" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="13" filmstripImage="{PROJECT_FOLDER}Voice0_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice1" x="21" y="25" width="196"
-               height="13" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="13" filmstripImage="{PROJECT_FOLDER}Voice1_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice2" x="37" y="39" width="181"
-               height="15" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="15" filmstripImage="{PROJECT_FOLDER}Voice2_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice3" x="52" y="54" width="165"
-               height="12" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="12" filmstripImage="{PROJECT_FOLDER}Voice3_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice4" x="69" y="68" width="149"
-               height="13" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="13" filmstripImage="{PROJECT_FOLDER}Voice4_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice5" x="85" y="82" width="132"
-               height="12" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="12" filmstripImage="{PROJECT_FOLDER}Voice5_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice6" x="101" y="96" width="118"
-               height="13" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="13" filmstripImage="{PROJECT_FOLDER}Voice6_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice7" x="116" y="111" width="102"
-               height="12" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="12" filmstripImage="{PROJECT_FOLDER}Voice7_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice8" x="131" y="126" width="86"
-               height="12" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="12" filmstripImage="{PROJECT_FOLDER}Voice8_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
     <Component type="ScriptButton" id="FXLaunchVoice9" x="146" y="141" width="72"
-               height="12" filmstripImage="{PROJECT_FOLDER}OverlayVoice0.png"
+               height="12" filmstripImage="{PROJECT_FOLDER}Voice9_HOVER.png"
                numStrips="6" parentComponent="FXLauncherCollection"/>
   </Component>
   <Component type="ScriptPanel" id="FXPanelCollection" x="236" y="149" width="509"
@@ -146,11 +146,11 @@
       </Component>
       <Component type="ScriptPanel" id="CompPanel0" x="0" y="20" parentComponent="FXPanelVoice0"
                  itemColour2="0" itemColour="0" bgColour="4294967295" height="200"
-                 width="509" borderRadius="0" borderSize="0" visible="0">
+                 width="509" borderRadius="0" borderSize="0">
         <Component type="ScriptButton" id="CompPowerVoice0" x="15" y="18" parentComponent="CompPanel0"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice0" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel0" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice0" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -162,7 +162,7 @@
                    parentComponent="CompPanel0" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice0" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel0" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice0" x="445" y="95"
@@ -188,7 +188,7 @@
       </Component>
       <Component type="ScriptPanel" id="VoiceElementPanel0" x="0" y="20" parentComponent="FXPanelVoice0"
                  itemColour2="0" itemColour="0" bgColour="4294967295" height="200"
-                 width="509" borderRadius="0" borderSize="0">
+                 width="509" borderRadius="0" borderSize="0" visible="0">
         <Component type="ScriptSlider" id="VoxElementPan0" x="84" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                    numStrips="31" width="38" height="37" middlePosition="0" showValuePopup="Above"
                    parentComponent="VoiceElementPanel0" min="-100" max="100" stepSize="1"
@@ -317,7 +317,7 @@
         <Component type="ScriptButton" id="CompPowerVoice1" x="15" y="18" parentComponent="CompPanel1"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice1" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel1" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice1" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -329,7 +329,7 @@
                    parentComponent="CompPanel1" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice1" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel1" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice1" x="445" y="95"
@@ -484,7 +484,7 @@
         <Component type="ScriptButton" id="CompPowerVoice2" x="15" y="18" parentComponent="CompPanel2"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice2" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel2" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice2" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -496,7 +496,7 @@
                    parentComponent="CompPanel2" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice2" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel2" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice2" x="445" y="95"
@@ -651,7 +651,7 @@
         <Component type="ScriptButton" id="CompPowerVoice3" x="15" y="18" parentComponent="CompPanel3"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice3" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel3" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice3" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -663,7 +663,7 @@
                    parentComponent="CompPanel3" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice3" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel3" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice3" x="445" y="95"
@@ -718,7 +718,7 @@
                borderSize="0" borderRadius="0" bgColour="4294967295" parentComponent="FXPanelCollection"
                visible="0">
       <Component type="ScriptLabel" id="NamedVoice4" x="5" y="2" parentComponent="FXPanelVoice4"
-                 editable="0" fontSize="12" width="160" height="17" text="PICCOLO TRUMPET"
+                 editable="0" fontSize="12" width="160" height="17" text="MANDOLIN"
                  alignment="left"/>
       <Component type="ScriptButton" id="EQSelectorVoice4" x="276" y="2" parentComponent="FXPanelVoice4"
                  height="17" width="100" filmstripImage="{PROJECT_FOLDER}EQSelector.png"
@@ -818,7 +818,7 @@
         <Component type="ScriptButton" id="CompPowerVoice4" x="15" y="18" parentComponent="CompPanel4"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice4" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel4" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice4" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -830,8 +830,8 @@
                    parentComponent="CompPanel4" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice4" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
-                   parentComponent="CompPanel4" max="10" stepSize="0.1" defaultValue="20"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
+                   parentComponent="CompPanel4" max="10" stepSize="0.1" defaultValue="10"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice4" x="445" y="95"
                    parentComponent="CompPanel4" width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
@@ -985,7 +985,7 @@
         <Component type="ScriptButton" id="CompPowerVoice5" x="15" y="18" parentComponent="CompPanel5"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice5" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel5" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice5" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -997,8 +997,8 @@
                    parentComponent="CompPanel5" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice5" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
-                   parentComponent="CompPanel5" max="10" stepSize="0.1" defaultValue="20"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
+                   parentComponent="CompPanel5" max="10" stepSize="0.1" defaultValue="10"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice5" x="445" y="95"
                    parentComponent="CompPanel5" width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
@@ -1152,7 +1152,7 @@
         <Component type="ScriptButton" id="CompPowerVoice6" x="15" y="18" parentComponent="CompPanel6"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice6" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel6" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice6" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -1164,7 +1164,7 @@
                    parentComponent="CompPanel6" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice6" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel6" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice6" x="445" y="95"
@@ -1319,7 +1319,7 @@
         <Component type="ScriptButton" id="CompPowerVoice7" x="15" y="18" parentComponent="CompPanel7"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice7" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel7" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice7" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -1331,7 +1331,7 @@
                    parentComponent="CompPanel7" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice7" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel7" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice7" x="445" y="95"
@@ -1486,7 +1486,7 @@
         <Component type="ScriptButton" id="CompPowerVoice8" x="15" y="18" parentComponent="CompPanel8"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice8" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel8" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice8" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -1498,8 +1498,8 @@
                    parentComponent="CompPanel8" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice8" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
-                   parentComponent="CompPanel8" max="10" stepSize="0.1" defaultValue="20"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
+                   parentComponent="CompPanel8" max="10" stepSize="0.1" defaultValue="10"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice8" x="445" y="95"
                    parentComponent="CompPanel8" width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
@@ -1653,7 +1653,7 @@
         <Component type="ScriptButton" id="CompPowerVoice9" x="15" y="18" parentComponent="CompPanel9"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice9" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel9" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice9" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -1665,7 +1665,7 @@
                    parentComponent="CompPanel9" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice9" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel9" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice9" x="445" y="95"
@@ -1817,7 +1817,7 @@
         <Component type="ScriptButton" id="CompPowerVoice10" x="15" y="18" parentComponent="CompPanel10"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice10" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel10" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice10" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -1829,7 +1829,7 @@
                    parentComponent="CompPanel10" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice10" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel10" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice10" x="445" y="95"
@@ -1981,7 +1981,7 @@
         <Component type="ScriptButton" id="CompPowerVoice11" x="15" y="18" parentComponent="CompPanel11"
                    width="17" height="17" filmstripImage="{PROJECT_FOLDER}CompOnOffButton.png"/>
         <Component type="ScriptSlider" id="CompThresholdVoice11" x="29" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="-2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="-30" showValuePopup="Above"
                    parentComponent="CompPanel11" mode="Decibel" min="-60" max="0"
                    stepSize="1" suffix="dB" defaultValue="-2" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompAttackVoice11" x="126" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
@@ -1993,7 +1993,7 @@
                    parentComponent="CompPanel11" mode="Time" max="300" stepSize="1"
                    suffix="dB" defaultValue="20" mouseSensitivity="0.2"/>
         <Component type="ScriptSlider" id="CompRatioVoice11" x="320" y="90" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
-                   numStrips="31" width="38" height="37" middlePosition="2" showValuePopup="Above"
+                   numStrips="31" width="38" height="37" middlePosition="5" showValuePopup="Above"
                    parentComponent="CompPanel11" max="10" stepSize="0.1" defaultValue="2"
                    min="1" mouseSensitivity="0.2"/>
         <Component type="ScriptButton" id="CompMakeUpGainVoice11" x="445" y="95"
@@ -2044,7 +2044,7 @@
       </Component>
     </Component>
   </Component>
-  <Component type="ScriptPanel" id="VoiceVolumeCollection" x="18" y="401"
+  <Component type="ScriptPanel" id="VoiceVolumeCollection" x="18" y="415"
              height="70" width="195" borderSize="0" borderRadius="0" itemColour2="0"
              itemColour="0" textColour="16777215" bgColour="16777215">
     <Component type="ScriptSlider" id="VolumeVoice0" x="0" y="0" middlePosition="-18"
@@ -2099,10 +2099,10 @@
                stepSize="1" suffix=" ms" middlePosition="1000" numStrips="31"
                filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png" width="36"
                height="36" showValuePopup="Above" mouseSensitivity="0.2" parentComponent="LowerAreaControls"/>
-    <Component type="ScriptButton" id="EnvelopeLaunch1" x="34" y="70" width="52"
+    <Component type="ScriptButton" id="EnvelopeLaunch1" x="35" y="70" width="52"
                height="15" filmstripImage="{PROJECT_FOLDER}ATTACK_HOVER.png"
                parentComponent="LowerAreaControls" numStrips="6"/>
-    <Component type="ScriptButton" id="EnvelopeLaunch2" x="88" y="70" width="53"
+    <Component type="ScriptButton" id="EnvelopeLaunch2" x="89" y="70" width="53"
                height="14" filmstripImage="{PROJECT_FOLDER}RELEASE_HOVER.png"
                numStrips="6" parentComponent="LowerAreaControls"/>
     <Component type="ScriptSlider" id="CutOff" x="150" y="29" mode="Frequency"
@@ -2110,14 +2110,14 @@
                filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png" width="36"
                height="36" showValuePopup="Above" min="20" mouseSensitivity="0.2"
                parentComponent="LowerAreaControls"/>
-    <Component type="ScriptButton" id="FilterLaunch" x="144" y="70" width="53"
+    <Component type="ScriptButton" id="FilterLaunch" x="145" y="70" width="53"
                height="14" filmstripImage="{PROJECT_FOLDER}CUTOFF_HOVER.png"
                numStrips="6" parentComponent="LowerAreaControls"/>
     <Component type="ScriptSlider" id="Drive" x="207" y="29" mode="Decibel"
                suffix="%" middlePosition="30" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" mouseSensitivity="0.2"
                max="60" stepSize="0.1" defaultValue="10" parentComponent="LowerAreaControls"/>
-    <Component type="ScriptButton" id="DriveLaunch" x="205" y="70" width="41"
+    <Component type="ScriptButton" id="DriveLaunch" x="206" y="70" width="41"
                height="14" filmstripImage="{PROJECT_FOLDER}DRIVE_HOVER.png"
                numStrips="6" parentComponent="LowerAreaControls"/>
     <Component type="ScriptSlider" id="Reverb" x="262" y="29" mode="NormalizedPercentage"

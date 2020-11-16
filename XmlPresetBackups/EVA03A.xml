@@ -34,9 +34,9 @@
             <Control type="ScriptButton" id="FXLaunchVoice8" value="0"/>
             <Control type="ScriptButton" id="FXLaunchVoice9" value="0"/>
             <Control type="ScriptButton" id="EQSelectorVoice0" value="0"/>
-            <Control type="ScriptButton" id="CompSelectorVoice0" value="0"/>
-            <Control type="ScriptButton" id="VoiceElementSelector0" value="1"/>
-            <Control type="ScriptButton" id="FXDismissVoice0" value="1"/>
+            <Control type="ScriptButton" id="CompSelectorVoice0" value="1"/>
+            <Control type="ScriptButton" id="VoiceElementSelector0" value="0"/>
+            <Control type="ScriptButton" id="FXDismissVoice0" value="0"/>
             <Control type="ScriptSlider" id="LoShelfFreqVoice0" value="400"/>
             <Control type="ScriptSlider" id="LoShelfQVoice0" value="4"/>
             <Control type="ScriptSlider" id="LoShelfGainVoice0" value="0"/>
@@ -50,10 +50,10 @@
             <Control type="ScriptSlider" id="HiShelfQVoice0" value="4"/>
             <Control type="ScriptSlider" id="HiShelfGainVoice0" value="0"/>
             <Control type="ScriptButton" id="CompPowerVoice0" value="0"/>
-            <Control type="ScriptSlider" id="CompThresholdVoice0" value="-20"/>
+            <Control type="ScriptSlider" id="CompThresholdVoice0" value="-15"/>
             <Control type="ScriptSlider" id="CompAttackVoice0" value="20"/>
             <Control type="ScriptSlider" id="CompReleaseVoice0" value="20"/>
-            <Control type="ScriptSlider" id="CompRatioVoice0" value="20"/>
+            <Control type="ScriptSlider" id="CompRatioVoice0" value="10"/>
             <Control type="ScriptButton" id="CompMakeUpGainVoice0" value="0"/>
             <Control type="ScriptSlider" id="VoxElementPan0" value="0"/>
             <Control type="ScriptSlider" id="VoxElementWidth0" value="100"/>
@@ -150,10 +150,10 @@
             <Control type="ScriptSlider" id="HiShelfQVoice4" value="4"/>
             <Control type="ScriptSlider" id="HiShelfGainVoice4" value="0"/>
             <Control type="ScriptButton" id="CompPowerVoice4" value="0"/>
-            <Control type="ScriptSlider" id="CompThresholdVoice4" value="-20"/>
+            <Control type="ScriptSlider" id="CompThresholdVoice4" value="0"/>
             <Control type="ScriptSlider" id="CompAttackVoice4" value="20"/>
             <Control type="ScriptSlider" id="CompReleaseVoice4" value="20"/>
-            <Control type="ScriptSlider" id="CompRatioVoice4" value="20"/>
+            <Control type="ScriptSlider" id="CompRatioVoice4" value="5"/>
             <Control type="ScriptButton" id="CompMakeUpGainVoice4" value="0"/>
             <Control type="ScriptSlider" id="VoxElementPan4" value="0"/>
             <Control type="ScriptSlider" id="VoxElementWidth4" value="100"/>
@@ -336,12 +336,12 @@
             <Control type="ScriptSlider" id="VolumeVoice0" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice1" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice2" value="-100"/>
-            <Control type="ScriptSlider" id="VolumeVoice3" value="-3.6"/>
+            <Control type="ScriptSlider" id="VolumeVoice3" value="-19.9"/>
             <Control type="ScriptSlider" id="VolumeVoice4" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice5" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice6" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice7" value="-100"/>
-            <Control type="ScriptSlider" id="VolumeVoice8" value="-76.4"/>
+            <Control type="ScriptSlider" id="VolumeVoice8" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice9" value="-100"/>
             <Control type="ScriptSlider" id="Attack" value="0"/>
             <Control type="ScriptSlider" id="Release" value="0"/>
@@ -723,7 +723,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="CurveEq" ID="IRREEQMASTER" Bypassed="0" NumFilters="1"
-                       Band0="-0.526858" Band1="215.752" Band2="0.3" Band3="1" Band4="4"
+                       Band0="-0.657484" Band1="420.953" Band2="0.3" Band3="1" Band4="4"
                        FFTEnabled="0">
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
@@ -795,7 +795,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch1" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch1" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -816,7 +816,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain1" Bypassed="0" Gain="-51.7"
+                <Processor Type="SimpleGain" ID="Simple Gain1" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -843,8 +843,8 @@
                   <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
                 </Processor>
                 <Processor Type="Dynamics" ID="Dynamics1" Bypassed="1" GateEnabled="0" GateThreshold="0"
-                           GateAttack="1" GateRelease="100" CompressorEnabled="1" CompressorThreshold="-20"
-                           CompressorRatio="20" CompressorAttack="20" CompressorRelease="20"
+                           GateAttack="1" GateRelease="100" CompressorEnabled="1" CompressorThreshold="-15"
+                           CompressorRatio="10" CompressorAttack="20" CompressorRelease="20"
                            LimiterEnabled="0" LimiterThreshold="0" LimiterAttack="1" LimiterRelease="10"
                            CompressorMakeup="0" LimiterMakeup="0">
                   <ChildProcessors/>
@@ -886,7 +886,7 @@
             <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="AHDSR Envelope2" Bypassed="0" Monophonic="0"
-                           Retrigger="1" Intensity="1" AttackCurve="0.5" DecayCurve="0"
+                           Retrigger="1" Intensity="1" AttackCurve="0.26" DecayCurve="0"
                            Attack="0" AttackLevel="0" Hold="471" Decay="2199" Sustain="-12"
                            Release="5" EcoMode="1">
                   <ChildProcessors>
@@ -929,7 +929,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch2" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch2" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -950,7 +950,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain2" Bypassed="0" Gain="-51.5"
+                <Processor Type="SimpleGain" ID="Simple Gain2" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -1063,7 +1063,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch3" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch3" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1084,7 +1084,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain3" Bypassed="0" Gain="-28.5"
+                <Processor Type="SimpleGain" ID="Simple Gain3" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -1197,7 +1197,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch4" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch4" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1218,7 +1218,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain4" Bypassed="0" Gain="-3.6"
+                <Processor Type="SimpleGain" ID="Simple Gain4" Bypassed="0" Gain="-19.9"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -1331,7 +1331,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch5" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch5" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1352,7 +1352,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain5" Bypassed="0" Gain="-37.8"
+                <Processor Type="SimpleGain" ID="Simple Gain5" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -1379,8 +1379,8 @@
                   <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
                 </Processor>
                 <Processor Type="Dynamics" ID="Dynamics5" Bypassed="1" GateEnabled="0" GateThreshold="0"
-                           GateAttack="1" GateRelease="100" CompressorEnabled="1" CompressorThreshold="-20"
-                           CompressorRatio="20" CompressorAttack="20" CompressorRelease="20"
+                           GateAttack="1" GateRelease="100" CompressorEnabled="1" CompressorThreshold="0"
+                           CompressorRatio="5" CompressorAttack="20" CompressorRelease="20"
                            LimiterEnabled="0" LimiterThreshold="0" LimiterAttack="1" LimiterRelease="10"
                            CompressorMakeup="0" LimiterMakeup="0">
                   <ChildProcessors/>
@@ -1465,7 +1465,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch6" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch6" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1486,7 +1486,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain6" Bypassed="0" Gain="-53.3"
+                <Processor Type="SimpleGain" ID="Simple Gain6" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -1599,7 +1599,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch7" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch7" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1620,7 +1620,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain7" Bypassed="0" Gain="-53.2"
+                <Processor Type="SimpleGain" ID="Simple Gain7" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -1733,7 +1733,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch8" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch8" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1754,7 +1754,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain8" Bypassed="0" Gain="-35.2"
+                <Processor Type="SimpleGain" ID="Simple Gain8" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -1812,7 +1812,7 @@
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="MidiMuter" ID="MidiMuter9" Bypassed="1">
+                <Processor Type="MidiMuter" ID="MidiMuter9" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="ignoreButton" value="1"/>
@@ -1867,7 +1867,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch9" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch9" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1888,7 +1888,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain9" Bypassed="0" Gain="-76.4"
+                <Processor Type="SimpleGain" ID="Simple Gain9" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -2001,7 +2001,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch10" Bypassed="0" Intensity="0.00122356"
+                <Processor Type="Constant" ID="IRREPitch10" Bypassed="0" Intensity="-0.00196505"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -2022,7 +2022,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain10" Bypassed="0" Gain="-40.9"
+                <Processor Type="SimpleGain" ID="Simple Gain10" Bypassed="0" Gain="-100"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">

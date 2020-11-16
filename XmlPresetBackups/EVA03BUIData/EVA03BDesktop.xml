@@ -2082,7 +2082,7 @@
     <Component type="ScriptSlider" id="VolumeVoice8" x="128" y="0" middlePosition="-18"
                stepSize="0.1" min="-100" max="0" suffix=" dB" filmstripImage="{PROJECT_FOLDER}ARC_Fader.png"
                mode="Decibel" numStrips="31" isVertical="0" width="16" height="70"
-               parentComponent="VoiceVolumeCollection"/>
+               parentComponent="VoiceVolumeCollection" mouseSensitivity="0.2"/>
     <Component type="ScriptSlider" id="VolumeVoice9" x="144" y="0" middlePosition="-18"
                stepSize="0.1" min="-100" max="0" suffix=" dB" filmstripImage="{PROJECT_FOLDER}ARC_Fader.png"
                mode="Decibel" numStrips="31" isVertical="0" width="16" height="70"
@@ -2341,15 +2341,29 @@
     <Component type="ScriptSlider" id="DelayRate" x="102" y="402" mode="TempoSync"
                middlePosition="9" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
-               text="ChsWidth" max="18" stepSize="1" defaultValue="2" mouseSensitivity="0.2"/>
+               text="ChsWidth" max="18" stepSize="1" defaultValue="2" mouseSensitivity="0.2"
+               processorId="FILTERDELAYSCRIPT" parameterId="FDTIME"/>
     <Component type="ScriptSlider" id="DelayFeedback" x="157" y="402" mode="NormalizedPercentage"
                middlePosition="0.5" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
-               suffix="%" mouseSensitivity="0.2"/>
-    <Component type="ScriptSlider" id="DelayMix" x="470" y="402" mode="NormalizedPercentage"
-               middlePosition="0.5" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
+               suffix="%" mouseSensitivity="0.2" processorId="FILTERDELAYSCRIPT"
+               parameterId="FDFEEDBACK"/>
+    <Component type="ScriptSlider" id="DelayWet" x="440" y="405" mode="Decibel"
+               middlePosition="-18" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
                width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
-               suffix="%" mouseSensitivity="0.2"/>
+               suffix=" dB" mouseSensitivity="0.2" min="-100" max="0" stepSize="0.1"
+               processorId="FILTERDELAYSCRIPT" parameterId="FDWET"/>
+    <Component type="ScriptSlider" id="DelayFreq" x="224" y="405" mode="Frequency"
+               middlePosition="1500" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
+               width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
+               text="ChsWidth" max="20000" stepSize="1" defaultValue="20" mouseSensitivity="0.2"
+               processorId="FILTERDELAYSCRIPT" parameterId="FDFREQ" min="20"
+               suffix=" Hz"/>
+    <Component type="ScriptSlider" id="DelayDry" x="506" y="403" mode="Decibel"
+               middlePosition="-18" numStrips="31" filmstripImage="{PROJECT_FOLDER}ARC_Knob_med.png"
+               width="36" height="36" showValuePopup="Above" parentComponent="EffectsPanel"
+               suffix=" dB" mouseSensitivity="0.2" min="-100" max="0" stepSize="0.1"
+               processorId="FILTERDELAYSCRIPT" parameterId="FDDRY"/>
   </Component>
   <Component type="ScriptPanel" id="ModsPanel" x="0" y="0" borderSize="0"
              borderRadius="0" width="750" height="512" visible="0">
