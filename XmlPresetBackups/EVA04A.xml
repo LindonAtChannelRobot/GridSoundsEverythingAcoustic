@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="EVA04" Bypassed="0" Gain="1" Balance="0"
+<Processor Type="SynthChain" ID="EVA04A" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
            BuildVersion="650">
   <ChildProcessors>
@@ -333,15 +333,15 @@
             <Control type="ScriptSlider" id="VoxElementPan11" value="0"/>
             <Control type="ScriptSlider" id="VoxElementWidth11" value="100"/>
             <Control type="ScriptSlider" id="VoxElementDelay11" value="0"/>
-            <Control type="ScriptSlider" id="VolumeVoice0" value="-100"/>
-            <Control type="ScriptSlider" id="VolumeVoice1" value="0"/>
+            <Control type="ScriptSlider" id="VolumeVoice0" value="-3.6"/>
+            <Control type="ScriptSlider" id="VolumeVoice1" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice2" value="-100"/>
-            <Control type="ScriptSlider" id="VolumeVoice3" value="0"/>
+            <Control type="ScriptSlider" id="VolumeVoice3" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice4" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice5" value="-100"/>
             <Control type="ScriptSlider" id="VolumeVoice6" value="-100"/>
-            <Control type="ScriptSlider" id="VolumeVoice7" value="0"/>
-            <Control type="ScriptSlider" id="VolumeVoice8" value="-100"/>
+            <Control type="ScriptSlider" id="VolumeVoice7" value="-100"/>
+            <Control type="ScriptSlider" id="VolumeVoice8" value="-2.4"/>
             <Control type="ScriptSlider" id="VolumeVoice9" value="-100"/>
             <Control type="ScriptSlider" id="Attack" value="0"/>
             <Control type="ScriptSlider" id="Release" value="0"/>
@@ -440,20 +440,21 @@
             <Control type="ScriptButton" id="Arp" value="0"/>
             <Control type="ScriptButton" id="Effects" value="0"/>
             <Control type="ScriptButton" id="Mods" value="0"/>
+            <Control type="ScriptPanel" id="PresetsPanel" value="0"/>
+            <Control type="ScriptLabel" id="myPresetName" value="AAAA"/>
             <Control type="ScriptSlider" id="MasterPitch" value="0"/>
             <Control type="ScriptSlider" id="MasterPan" value="0"/>
             <Control type="ScriptSlider" id="LeftMasterVU" value="-100"/>
             <Control type="ScriptSlider" id="RightMasterVU" value="-100"/>
             <Control type="ScriptButton" id="SettingsSelector" value="0"/>
             <Control type="ScriptButton" id="MasterMute" value="0"/>
-            <Control type="ScriptButton" id="PresetPanelDismiss" value="0"/>
             <Control type="ScriptButton" id="SettingsPanelDismiss" value="0"/>
             <Control type="ScriptSlider" id="IRRETimbre" value="0.05"/>
             <Control type="ScriptSlider" id="IRREPitch" value="0.05"/>
             <Control type="ScriptSlider" id="PitchBendAmt" value="1"/>
             <Control type="ScriptButton" id="SubmitButton" value="0"/>
           </Content>
-          <UIData Source="EVA04UIData"/>
+          <UIData Source="EVA04AUIData"/>
         </Processor>
         <Processor Type="ScriptProcessor" ID="ArpRetrigger" Bypassed="1">
           <ChildProcessors/>
@@ -729,7 +730,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
             <Processor Type="CurveEq" ID="IRREEQMASTER" Bypassed="0" NumFilters="1"
-                       Band0="-0.296493" Band1="224.799" Band2="0.3" Band3="1" Band4="4"
+                       Band0="-0.359124" Band1="142.831" Band2="0.3" Band3="1" Band4="4"
                        FFTEnabled="0">
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
@@ -746,7 +747,7 @@
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="MidiMuter" ID="MidiMuter1" Bypassed="0">
+                <Processor Type="MidiMuter" ID="MidiMuter1" Bypassed="1">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="ignoreButton" value="1"/>
@@ -805,7 +806,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch1" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch1" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -826,7 +827,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain1" Bypassed="0" Gain="-100"
+                <Processor Type="SimpleGain" ID="Simple Gain1" Bypassed="0" Gain="-3.6"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -884,7 +885,7 @@
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="MidiMuter" ID="MidiMuter2" Bypassed="1">
+                <Processor Type="MidiMuter" ID="MidiMuter2" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="ignoreButton" value="0"/>
@@ -943,7 +944,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch2" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch2" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -964,8 +965,8 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain2" Bypassed="0" Gain="0" Delay="0"
-                           Width="100" Balance="0" InvertPolarity="0">
+                <Processor Type="SimpleGain" ID="Simple Gain2" Bypassed="0" Gain="-100"
+                           Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
                       <ChildProcessors/>
@@ -1081,7 +1082,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch3" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch3" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1160,7 +1161,7 @@
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="MidiMuter" ID="MidiMuter4" Bypassed="1">
+                <Processor Type="MidiMuter" ID="MidiMuter4" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="ignoreButton" value="1"/>
@@ -1219,7 +1220,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch4" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch4" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1240,8 +1241,8 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain4" Bypassed="0" Gain="0" Delay="0"
-                           Width="100" Balance="0" InvertPolarity="0">
+                <Processor Type="SimpleGain" ID="Simple Gain4" Bypassed="0" Gain="-100"
+                           Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
                       <ChildProcessors/>
@@ -1357,7 +1358,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch5" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch5" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1495,7 +1496,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch6" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch6" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1633,7 +1634,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch7" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch7" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1712,7 +1713,7 @@
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="MidiMuter" ID="MidiMuter8" Bypassed="1">
+                <Processor Type="MidiMuter" ID="MidiMuter8" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="ignoreButton" value="1"/>
@@ -1771,7 +1772,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch8" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch8" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1792,8 +1793,8 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain8" Bypassed="0" Gain="0" Delay="0"
-                           Width="100" Balance="0" InvertPolarity="0">
+                <Processor Type="SimpleGain" ID="Simple Gain8" Bypassed="0" Gain="-100"
+                           Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
                       <ChildProcessors/>
@@ -1850,7 +1851,7 @@
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="MidiMuter" ID="MidiMuter9" Bypassed="0">
+                <Processor Type="MidiMuter" ID="MidiMuter9" Bypassed="1">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="ignoreButton" value="1"/>
@@ -1909,7 +1910,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch9" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch9" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>
@@ -1930,7 +1931,7 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="SimpleGain" ID="Simple Gain9" Bypassed="0" Gain="-100"
+                <Processor Type="SimpleGain" ID="Simple Gain9" Bypassed="0" Gain="-2.4"
                            Delay="0" Width="100" Balance="0" InvertPolarity="0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -2047,7 +2048,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="IRREPitch10" Bypassed="0" Intensity="0.00413492"
+                <Processor Type="Constant" ID="IRREPitch10" Bypassed="0" Intensity="-0.000423457"
                            Bipolar="1">
                   <ChildProcessors/>
                 </Processor>

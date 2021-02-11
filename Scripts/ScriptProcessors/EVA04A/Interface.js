@@ -1235,8 +1235,10 @@ Content.getComponent("IRREPitch").setControlCallback(onIRREPitchControl);
 
 
 ////////////////////////////////////////////////////////
-//                    PRESETS  AREA
+//                    PRESETS AREA
 ////////////////////////////////////////////////////////
+
+
 
 const var PresetPanel = Content.getComponent("PresetPanel");
 const var myPresetName = Content.getComponent("myPresetName");
@@ -1244,7 +1246,7 @@ const var Presets = Content.getComponent("Presets");
 PresetPanel.setTimerCallback(function()
 {
     myPresetName.set("text", Engine.getCurrentUserPresetName());
-    Console.print(Engine.getCurrentUserPresetName());
+    Console.print("Setting preset to:" + Engine.getCurrentUserPresetName());
 }
 );
 
@@ -1269,6 +1271,7 @@ inline function onPresetsControl(component, value)
   preName = Engine.getCurrentUserPresetName();
   if (preName == "")
     preName = "EMPTY";
+  Console.print("setting preset name in onPresetsControl");
   myPresetName.set("text",preName);
   
 };
@@ -1282,6 +1285,8 @@ inline function onPresetPanelDismissControl(component, value)
 	PresetPanel.showControl(false);
 	Presets.setValue(0);
 	PresetPanel.stopTimer();
+	Console.print("setting prest name in onDismiss");
+	myPresetName.set("text", Engine.getCurrentUserPresetName());
 };
 
 Content.getComponent("PresetPanelDismiss").setControlCallback(onPresetPanelDismissControl);
@@ -1289,7 +1294,12 @@ Content.getComponent("PresetPanelDismiss").setControlCallback(onPresetPanelDismi
 
 inline function onPrevUserPresetControl(component, value)
 {
-	
+    if (value)
+    {
+	    Engine.loadPreviousUserPreset(false);
+	    Console.print("setting prest name in onPrev");
+	    myPresetName.set("text", Engine.getCurrentUserPresetName());
+    }
 };
 
 Content.getComponent("PrevUserPreset").setControlCallback(onPrevUserPresetControl);
@@ -1297,12 +1307,17 @@ Content.getComponent("PrevUserPreset").setControlCallback(onPrevUserPresetContro
 
 inline function onNextUserPresetControl(component, value)
 {
-	//Engine.loadNextUserPreset(false);
+    if (value)
+    {
+	    Engine.loadNextUserPreset(false);
+	    Console.print("setting prest name in onNext");
+	    myPresetName.set("text", Engine.getCurrentUserPresetName());
+    }
 };
 
 Content.getComponent("NextUserPreset").setControlCallback(onNextUserPresetControl);
 
-
+ 
 //////////////////////////////////////////
 //   PER VOICE PANELS AND CONTROLS AREA
 /////////////////////////////////////////

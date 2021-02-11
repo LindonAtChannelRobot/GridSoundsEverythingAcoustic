@@ -175,7 +175,7 @@ inline function checkOnLoad()
         local v = pData.Serial;
         Console.print("Restored serial: " + v);
         
-        if(serials.Data.contains(v))
+        if(serials.Data.contains(v) || bundleserials.Data.contains(v))
         {
             setValidLicense(true);
             Console.print("valid license apparently..");
