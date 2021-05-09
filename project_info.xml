@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ProjectSettings>
-  <Name value="EverythingAcoustic"/>
+  <Name value="Everything Acoustic"/>
   <Version value="1.0.0"/>
   <Description value=""/>
-  <BundleIdentifier value="com.ChannelRobot.EverythingAcoustic"/>
-  <PluginCode value="Abcd"/>
+  <BundleIdentifier value="com.nightfoxaudio.everythingacoustic"/>
+  <PluginCode value="Nfea"/>
   <EmbedAudioFiles value="Yes"/>
   <EmbedImageFiles value="Yes"/>
   <SupportFullDynamicsHLAC value="No"/>
@@ -21,6 +21,9 @@
   <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
   <SupportMonoFX value="No"/>
   <EnableMidiInputFX value="No"/>
-  <VST3Support value="No"/>
+  <VST3Support value="1"/>
   <UseRawFrontend value="No"/>
+  <ExpansionType value="Disabled"/>
+  <EncryptionKey value=""/>
+  <LinkExpansionsToProject value="No"/>
 </ProjectSettings>
